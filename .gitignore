@@ -1,0 +1,38 @@
+# Java
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SSH/private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
